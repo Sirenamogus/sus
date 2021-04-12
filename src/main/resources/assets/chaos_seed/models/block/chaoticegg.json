@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chaos_seed:blocks/cheggtexture",
+    "up": "chaos_seed:blocks/cheggtexture",
+    "north": "chaos_seed:blocks/cheggtexture",
+    "east": "chaos_seed:blocks/cheggtexture",
+    "south": "chaos_seed:blocks/cheggtexture",
+    "west": "chaos_seed:blocks/cheggtexture",
+    "particle": "chaos_seed:blocks/cheggtexture"
+  }
+}

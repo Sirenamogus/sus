@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "chaos_seed:block/corrupted_grass"
+    }
+  }
+}

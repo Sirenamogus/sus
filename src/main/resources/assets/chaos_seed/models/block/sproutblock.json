@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chaos_seed:blocks/stemtop",
+    "up": "chaos_seed:blocks/stemtop",
+    "north": "chaos_seed:blocks/stemside",
+    "east": "chaos_seed:blocks/stemside",
+    "south": "chaos_seed:blocks/stemside",
+    "west": "chaos_seed:blocks/stemside",
+    "particle": "chaos_seed:blocks/stemtop"
+  }
+}

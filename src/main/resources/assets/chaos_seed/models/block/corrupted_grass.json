@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chaos_seed:blocks/cordirt",
+    "up": "chaos_seed:blocks/cordirttop",
+    "north": "chaos_seed:blocks/cordirtside",
+    "east": "chaos_seed:blocks/cordirtside",
+    "south": "chaos_seed:blocks/cordirtside",
+    "west": "chaos_seed:blocks/cordirtside",
+    "particle": "chaos_seed:blocks/cordirt"
+  }
+}
