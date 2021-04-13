@@ -53,5 +53,8 @@ public class CorruptedGrassUpdateTickProcedure extends ChaosSeedModElements.ModE
 		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)))).getBlock() == Blocks.GRASS_BLOCK.getDefaultState().getBlock())) {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)), CorruptedGrassBlock.block.getDefaultState(), 3);
 		}
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.FIRE.getDefaultState().getBlock())) {
+			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.COBBLESTONE.getDefaultState(), 3);
+		}
 	}
 }

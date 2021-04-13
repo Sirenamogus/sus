@@ -3,6 +3,10 @@ package net.mcreator.chaosseed.procedures;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 
+import net.mcreator.chaosseed.block.TBZPBlock;
+import net.mcreator.chaosseed.block.TBZMBlock;
+import net.mcreator.chaosseed.block.TBXPBlock;
+import net.mcreator.chaosseed.block.TBXMBlock;
 import net.mcreator.chaosseed.block.SidesproutBlock;
 import net.mcreator.chaosseed.block.ChaoticeggBlock;
 import net.mcreator.chaosseed.ChaosSeedModElements;
@@ -64,6 +68,16 @@ public class SidesproutBlockAddedProcedure extends ChaosSeedModElements.ModEleme
 							}
 						}
 					}
+				}
+			}
+		}
+		if ((Math.random() < 0.1)) {
+			if ((Math.random() < 0.1)) {
+				if ((Math.random() < 0.2)) {
+					world.setBlockState(new BlockPos((int) (x + 1), (int) (y - 20), (int) z), TBXPBlock.block.getDefaultState(), 3);
+					world.setBlockState(new BlockPos((int) (x - 1), (int) (y - 20), (int) z), TBXMBlock.block.getDefaultState(), 3);
+					world.setBlockState(new BlockPos((int) x, (int) (y - 20), (int) (z + 1)), TBZPBlock.block.getDefaultState(), 3);
+					world.setBlockState(new BlockPos((int) x, (int) (y - 20), (int) (z - 1)), TBZMBlock.block.getDefaultState(), 3);
 				}
 			}
 		}

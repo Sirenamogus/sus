@@ -48,6 +48,9 @@ public class TBZMBAProcedure extends ChaosSeedModElements.ModElement {
 		if (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.GRASS_BLOCK.getDefaultState().getBlock())) {
 			world.setBlockState(new BlockPos((int) x, (int) (y - 1), (int) z), CorruptedGrassBlock.block.getDefaultState(), 3);
 		}
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.DIRT.getDefaultState().getBlock())) {
+			world.setBlockState(new BlockPos((int) x, (int) (y - 1), (int) z), CorruptedGrassBlock.block.getDefaultState(), 3);
+		}
 		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.GRASS_BLOCK.getDefaultState().getBlock())) {
 			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), CorruptedGrassBlock.block.getDefaultState(), 3);
 		}

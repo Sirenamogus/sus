@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chaos_seed:blocks/tendril",
+    "up": "chaos_seed:blocks/tendril",
+    "north": "chaos_seed:blocks/tendril",
+    "east": "chaos_seed:blocks/tendril",
+    "south": "chaos_seed:blocks/tendril",
+    "west": "chaos_seed:blocks/tendril",
+    "particle": "chaos_seed:blocks/tendril"
+  }
+}
